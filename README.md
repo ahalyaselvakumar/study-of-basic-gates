@@ -50,7 +50,7 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 Y= A⊕B
 
 **Procedure** 
-
+```
 1.	Type the program in Quartus software.
 
 2.	Compile and run the program.
@@ -60,20 +60,37 @@ Y= A⊕B
 4.	Create nodes for inputs and outputs to generate the timing diagram.
 
 5.	For different input combinations generate the timing diagram.
-
+``
 
 **PROGRAM**
-
+```
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
-**Logic symbol & Truthtable**
+ Developed by:Ahalya S
+ RegisterNumber: 212223230006
+//TT verification of logic gates
+module program1(a,b,c,d,e,x,y,z);
+input a,b;
+output c,d,e,x,y,z;
+and(c,a,b);
+or(d,a,b);
+xor(e,a,b);
+nand(x,a,b);
+nor(y,a,b);
+xnor(z,a,b);
+endmodule
+ ```
+**Logic symbol**
+![Screenshot 2024-03-15 084232](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/5fff332d-4862-434d-992a-0ac4af8739ea)
 
-**RTL realization Output:** 
+ **Truthtable**
+![Screenshot 2024-03-15 084232](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/480156b2-7ca2-4f1a-b4f8-b6e2f43b1c91)
 
-**RTL**
+
+**Waveform**
+![Screenshot 2024-03-15 084716](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/30948742-29d1-47c1-8bf3-ed8ad944e73b)
 
 **Result:**
-
+Thus the different digital IC’s are studied and the truth table for different logic gates are
+verified
 
