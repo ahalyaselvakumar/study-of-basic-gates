@@ -68,7 +68,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by:Ahalya S
  RegisterNumber: 212223230006
- 
+ ```
 //TT verification of logic gates
 module program1(a,b,c,d,e,x,y,z);
 input a,b;
@@ -82,14 +82,14 @@ xnor(z,a,b);
 endmodule
  ```
 **Logic symbol**
-![Screenshot 2024-03-15 084232](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/5fff332d-4862-434d-992a-0ac4af8739ea)
+![Screenshot 2024-03-15 084232](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/9609321d-53a9-4419-bc78-d02e86d6ca4a)
 
 **Truthtable**
-![Screenshot 2024-03-15 084232](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/480156b2-7ca2-4f1a-b4f8-b6e2f43b1c91)
+![Screenshot 2024-03-15 084233](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/8aa2ec9a-088a-4c8b-a58e-5718e2191620)
 
 
 **Waveform**
-![Screenshot 2024-03-15 084716](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/30948742-29d1-47c1-8bf3-ed8ad944e73b)
+![Screenshot 2024-03-15 084716](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/60986bed-3aa0-4df5-bf7e-c85d6f702bf1)
 
 **Result:**
 Thus the different digital IC’s are studied and the truth table for different logic gates are
