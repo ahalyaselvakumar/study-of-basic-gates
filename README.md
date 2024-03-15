@@ -84,7 +84,7 @@ endmodule
 **Logic symbol**
 ![Screenshot 2024-03-15 084232](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/5fff332d-4862-434d-992a-0ac4af8739ea)
 
- **Truthtable**
+**Truthtable**
 ![Screenshot 2024-03-15 084232](https://github.com/ahalyaselvakumar/study-of-basic-gates/assets/144870759/480156b2-7ca2-4f1a-b4f8-b6e2f43b1c91)
 
 
@@ -94,4 +94,5 @@ endmodule
 **Result:**
 Thus the different digital IC’s are studied and the truth table for different logic gates are
 verified
+
 
