@@ -68,6 +68,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by:Ahalya S
  RegisterNumber: 212223230006
+ 
 //TT verification of logic gates
 module program1(a,b,c,d,e,x,y,z);
 input a,b;
